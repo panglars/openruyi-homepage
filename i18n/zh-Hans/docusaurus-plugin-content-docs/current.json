@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docSidebar.category.Guides": {
+    "message": "指南",
+    "description": "The label for category 'Guides' in sidebar 'docSidebar'"
+  },
+  "sidebar.docSidebar.category.Guides.link.generated-index.description": {
+    "message": "这里提供了帮助您入门 OpenRuyi 的指南。",
+    "description": "The generated-index page description for category 'Guides' in sidebar 'docSidebar'"
+  },
+  "sidebar.docSidebar.category.Packaging Guidelines": {
+    "message": "打包指南",
+    "description": "The label for category 'Packaging Guidelines' in sidebar 'docSidebar'"
+  },
+  "sidebar.docSidebar.category.Build Systems": {
+    "message": "声明式构建系统",
+    "description": "The label for category 'Build Systems' in sidebar 'docSidebar'"
+  },
+  "sidebar.docSidebar.category.Languages": {
+    "message": "编程语言",
+    "description": "The label for category 'Languages' in sidebar 'docSidebar'"
+  },
+  "sidebar.docSidebar.category.Languages.link.generated-index.description": {
+    "message": "本节提供面向不同编程语言生态的 openRuyi 软件包打包指南，包括常见做法、最佳实践和注意事项。",
+    "description": "The generated-index page description for category 'Languages' in sidebar 'docSidebar'"
+  },
+  "sidebar.docSidebar.category.Reviewing": {
+    "message": "审阅",
+    "description": "The label for category 'Reviewing' in sidebar 'docSidebar'"
+  },
+  "sidebar.docSidebar.category.Reviewing.link.generated-index.description": {
+    "message": "本节提供了审阅指南。",
+    "description": "The generated-index page description for category 'Reviewing' in sidebar 'docSidebar'"
+  }
+}

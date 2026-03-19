@@ -1,0 +1,58 @@
+---
+id: patches
+title: Patches
+description: This document describes openRuyi's patch policy.
+slug: /guide/packaging-guidelines/Patch
+---
+
+# Patches
+
+This document describes openRuyi's patch policy.
+
+## General Policy
+
+A comment line should precede every patch that a spec file references. This comment may briefly describe the purpose of the patch, or provide a link to the corresponding upstream discussion or source.
+
+## Patch File Naming Policy
+
+All patch files should begin with a four-digit numeric prefix. openRuyi reserves different numeric ranges for different types of patches:
+
+* Use the range `0001-0999` for patches you take from upstream for the same version.
+
+* Use the range `1000-1999` for CVE fixes and backported patches from other upstream versions.
+
+* Use the range `2000-2999` for openRuyi-specific patches that do not target upstream acceptance.
+
+## Using Individual `Patch` Tags
+
+Place `Patch` tags above the `BuildOption` tag (if present), or above the `BuildRequires` tag.
+
+```specfile
+# https://github.com/pypa/wheel/pull/655
+Patch0:         0001-adjusts-tests-for-setuptools-78.patch
+```
+
+If you prefer, you may also include an explanatory comment together with the link:
+
+```specfile
+# Upstream has removed this code entirely instead
+# https://github.com/pypa/wheel/pull/655
+Patch0:         0001-adjusts-tests-for-setuptools-78.patch
+```
+
+## Using `%patchlist`
+
+openRuyi does not recommend using individual `Patch` tags if a package contains more than three patches. In such cases, use `%patchlist` instead.
+
+When using `%patchlist`, you must place the patch list above `%description`. See [this discussion](https://github.com/rpm-software-management/rpm/issues/752) for details.
+
+```specfile
+%patchlist
+# Fix executable space protection patch, upstream plans to do this
+0001-unzip-6.0-exec-shield.patch
+# http://www.info-zip.org/board/board.pl?m-1259575993/
+0002-unzip-6.0-attribs-overflow.patch
+# ...
+# covscan issues
+0020-unzip-6.0-COVSCAN-fix-unterminated-string.patch
+```

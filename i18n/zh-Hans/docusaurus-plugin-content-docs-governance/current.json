@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.community.category.Legal": {
+    "message": "法律与合规",
+    "description": "The label for category 'Legal' in sidebar 'community'"
+  },
+  "sidebar.community.category.Policy": {
+    "message": "政策",
+    "description": "The label for category 'Policy' in sidebar 'community'"
+  }
+}

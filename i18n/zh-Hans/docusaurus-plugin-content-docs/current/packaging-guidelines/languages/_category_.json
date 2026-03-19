@@ -1,0 +1,8 @@
+{
+  "label": "Languages",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "This section provides packaging guidelines for openRuyi packages across different programming language ecosystems, including common practices, best practices, and key considerations."
+  }
+}
