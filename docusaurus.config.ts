@@ -81,7 +81,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'docSidebar',
           position: 'left',
-          label: 'Contributing Guide',
+          label: 'openRuyi',
         },
         {
             to: '/governance',
