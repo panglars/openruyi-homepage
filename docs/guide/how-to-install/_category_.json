@@ -1,0 +1,8 @@
+{
+  "label": "How to install",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "This section provides guides on how to install openRuyi."
+  }
+}
