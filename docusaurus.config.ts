@@ -33,7 +33,8 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/openRuyi-Project/homepage',
+            'https://github.com/openRuyi-Project/homepage/edit/main/',
+          editLocalizedFiles: true,
         },
         blog: {
           path: 'news',
@@ -44,7 +45,8 @@ const config: Config = {
             xslt: true,
           },
           editUrl:
-            'https://github.com/openRuyi-Project/homepage',
+            'https://github.com/openRuyi-Project/homepage/edit/main/',
+          editLocalizedFiles: true,
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -63,6 +65,8 @@ const config: Config = {
         path: 'governance',
         routeBasePath: 'governance',
         sidebarPath: './sidebarsGovernance.js',
+        editUrl: 'https://github.com/openRuyi-Project/homepage/edit/main/',
+        editLocalizedFiles: true,
       },
     ],
   ],
