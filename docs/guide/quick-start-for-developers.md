@@ -55,7 +55,7 @@ To reduce the workload, you may refer to build scripts from other distributions 
 
 ## Initializing an Open Build Service Project
 
-You can access our build platform at: `https://pickaxe.oerv.ac.cn/`
+You can access our build platform at: `https://build.openruyi.cn/`
 
 If you already have an account, you can sign in directly. Otherwise, you will need to register for one first. After signing in, enter your home project: `home:<your-username>`.
 
@@ -128,9 +128,9 @@ To perform local verification builds and debugging, you must first configure you
 
 ```toml
 [general]
-apiurl = https://pickaxe.oerv.ac.cn
+apiurl = https://build.openruyi.cn
 
-[https://pickaxe.oerv.ac.cn]
+[https://build.openruyi.cn]
 user = your-username
 pass = your-password
 ```

@@ -55,7 +55,7 @@ pre-commit install
 
 ## Open Build Service 工程初始化
 
-我们的构建平台地址是: https://pickaxe.oerv.ac.cn/
+我们的构建平台地址是: https://build.openruyi.cn/
 
 如果已经有帐号的话可以直接登录，否则需要注册一个帐号。之后，进入你的 `home:您的用户名` 项目。为了方便归类管理，我们建议为每个复杂的软件包或一组软件包创建一个独立的子项目( Subproject)，而不是直接在 `home:您的用户名` 内开始操作。
 
@@ -124,9 +124,9 @@ pre-commit install
 
 ```toml
 [general]
-apiurl = https://pickaxe.oerv.ac.cn
+apiurl = https://build.openruyi.cn
 
-[https://pickaxe.oerv.ac.cn]
+[https://build.openruyi.cn]
 user = 您的用户名
 pass = 您的密码
 ```
