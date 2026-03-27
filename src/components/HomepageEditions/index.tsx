@@ -27,7 +27,7 @@ const EditionList: EditionItem[] = [
                 openRuyi Server Edition is specifically designed for use on bare-metal servers.
             </Translate>
         ),
-        downloadLink: '//releases.openruyi.cn/creek/2026.03/rva23/',
+        downloadLink: '/docs/guide/how-to-install/server',
     },
     {
         icon: faCube,
@@ -42,7 +42,7 @@ const EditionList: EditionItem[] = [
                 system for both public and private cloud environments.
             </Translate>
         ),
-        downloadLink: 'https://releases.openruyi.cn/creek/2026.03/rva23/',
+        downloadLink: '/docs/guide/how-to-install/container',
     },
     {
         icon: faDesktop,
@@ -57,7 +57,7 @@ const EditionList: EditionItem[] = [
                 labwc.
             </Translate>
         ),
-        downloadLink: '//releases.openruyi.cn/creek/2026.03/rva23/openRuyi-2026.03-Workstation-labwc-dvd.iso',
+        downloadLink: '/docs/guide/how-to-install/workstation',
     },
     {
         icon: faGears,
@@ -90,7 +90,7 @@ function EditionCard({ icon, title, description, downloadLink }: EditionItem) {
                 <Link
                     className={`button button--primary ${styles.downloadBtn}`}
                     to={downloadLink}>
-                    <Translate id="homepage.editions.download">Download now</Translate>
+                    <Translate id="homepage.editions.download">Learn More</Translate>
                 </Link>
             </div>
         </div>

@@ -1,7 +1,7 @@
 ---
 id: how-to-install-openruyi-server
 title: 如何安装 openRuyi 服务器版
-description: This section provides guide on how to install openRuyi Server.
+description: 这篇文章教学如何安装 openRuyi 服务器版。
 slug: /guide/how-to-install/server
 ---
 
@@ -11,7 +11,7 @@ slug: /guide/how-to-install/server
 
 ## 安装准备
 
-您需要先获取 openRuyi 的云镜像文件和对应校验文件。
+您需要先获取 openRuyi 的镜像文件和对应校验文件。
 
 请访问我们的新闻页，在最新的版本文章下方获取 ISO 文件以及相应的安装映像的校验和。
 
@@ -22,7 +22,7 @@ slug: /guide/how-to-install/server
 如果您正在使用的系统上安装了 sha256sum 命令，则可以将校验和文件放在安装映像的同一个目录下，然后运行一下命令来验证:
 
 ```bash
-$ sha256sum openruyi-2026.03-Server-dvd.iso
+$ sha256sum openruyi-xxxx.xx-Server-dvd.iso
 ```
 
 ## 安装要求
@@ -57,7 +57,7 @@ $ sha256sum openruyi-2026.03-Server-dvd.iso
 
 ### 配置存储空间
 
-下一步是配置存储。请仔细选择需要使用哪块磁盘来安装 openRuyi 的系统。注意，选择好磁盘并回车之后，整块磁盘将会被格式化。
+下一步是配置存储。请仔细选择需要使用哪块磁盘来安装 openRuyi 的系统。
 
 :::danger 注意
 
